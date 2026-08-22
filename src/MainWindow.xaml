@@ -1,0 +1,16 @@
+﻿<Window
+    x:Class="WPFDevelopers.LibreWpf.Samples.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:examples="clr-namespace:WPFDevelopers.LibreWpf.Samples.ExampleViews"
+    xmlns:local="clr-namespace:WPFDevelopers.LibreWpf.Samples"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:wd="https://github.com/WPFDevelopersOrg/WPFDevelopers"
+    Title="WPFDevelopers.LibreWpf"
+    Width="{x:Static local:App.Wdith}"
+    Height="{x:Static local:App.Height}"
+    Icon="pack://application:,,,/WPFDevelopers.LibreWpf.Samples;component/WPFDevelopers.ico"
+    mc:Ignorable="d">
+    <examples:BasicControlsExample />
+</Window>

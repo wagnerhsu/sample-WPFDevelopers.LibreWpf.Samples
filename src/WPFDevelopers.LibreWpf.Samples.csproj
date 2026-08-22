@@ -1,0 +1,26 @@
+﻿<Project Sdk="LibreWPF.Sdk/0.1.0-preview.44">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <UseWindowsForms>true</UseWindowsForms>
+    <AssemblyName>WPFDevelopers.LibreWpf.Samples</AssemblyName>
+    <RootNamespace>WPFDevelopers.LibreWpf.Samples</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Resource Include="WPFDevelopers.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Using Remove="System.Windows.Forms" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="WPFDevelopers" Version="0.2.0" />
+  </ItemGroup>
+
+</Project>
